@@ -48,6 +48,9 @@
   border: 0;
   border-radius: 10px;
 }
+.conatact-btn {
+  margin-left: 180px;
+}
 
 /* navber-styles */
 .navber {
@@ -60,7 +63,7 @@
 .logo-pic {
   width: 62px;
   height: 62px;
-  margin-right: 10%;
+  margin-right: 2%;
 }
 .school {
   font-size: 2rem;
@@ -92,6 +95,44 @@
   visibility: hidden;
 }
 /* header-styles */
+.towards_vision {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.header-container {
+  width: 640px;
+  gap: 50px;
+  margin-top: 120px;
+}
+.students-title{
+  font-size: 3.5rem;
+  font-weight: 700;
+  width: 640px;
+  height: 183px;
+}
+.Empowering{
+  color: rgba(254, 163, 1, 1);
+}
+.towards-vision{
+  color: rgba(1, 172, 253, 1);
+}
+.description_header{
+  color: rgba(17, 17, 17, 1);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.btn-Enroll{
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.2rem;
+  padding: 10px 47px;
+  background-color: rgba(17, 17, 17, 1);
+  border: 0;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.hero-img {
+  width: 470px;
+}
 
 
 @media screen and (max-width: 592px) {
