@@ -217,11 +217,24 @@
   color: #ffff;
   background-color: rgba(254, 163, 1, 1);
   padding: 20px;
-} 
+}
+/* <!-- Our Stories --> */
+.stories-container{
+  grid-template-columns:repeat(3, 2fr);
+  justify-items: end;
+
+}
+.sub-container{
+  grid-template-columns: repeat(2,1fr);
+  justify-items: end;
+}
+.card-sub{
+}
+
 
 @media screen and (max-width: 592px) {
   .nav-items ul{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(5, 2fr);
     justify-items: flex-end;
     /* this margin so taf */
     margin-left: 100%;
