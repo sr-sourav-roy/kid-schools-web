@@ -219,16 +219,38 @@
   padding: 20px;
 }
 /* <!-- Our Stories --> */
+.stories{
+  color: rgba(0, 0, 0, 1);
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+}
 .stories-container{
   grid-template-columns:repeat(3, 2fr);
   justify-items: end;
-
 }
 .sub-container{
   grid-template-columns: repeat(2,1fr);
   justify-items: end;
-  margin-top: -200px;
- 
+  margin-top: -200px; 
+}
+.over-pic img{
+  /* border: 1px;
+  box-shadow:0px 0px 280.3px 0.94px rgba(0, 0, 0, 0.05);
+  border-radius: 10px; */
+  border: 0;
+  border-radius: 10px;
+}
+.title-over-pic{
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.over-pic-description{
+  color: rgba(102, 102, 102, 1);
+  font-size: 1rem;
+  font-weight: 500;
 }
 .card-sub{
   margin-left: 605px;
